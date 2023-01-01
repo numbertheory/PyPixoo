@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "pixoo-control"
+name = "pypixoo"
 version = "0.1.0"
 description = "Python wrapper for interacting with the Pixoo64"
 authors = ["JP Etcheber <jetcheber@gmail.com>"]
 license = "MIT License"
 readme = "README.md"
-packages = [{include = "pixoo_control"}]
+packages = [{include = "pypixoo"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
