@@ -1,6 +1,8 @@
+[project]
+dynamic = ["version"]
+
 [tool.poetry]
 name = "pypixoo"
-dynamic = ["version"]
 description = "Python wrapper for interacting with the Pixoo64"
 authors = ["JP Etcheber <jetcheber@gmail.com>"]
 license = "MIT License"
@@ -18,3 +20,6 @@ pytest = "^7.2.0"
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools-git-versioning]
+enabled = true
