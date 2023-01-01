@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pypixoo"
-version = "0.1.0"
+dynamic = ["version"]
 description = "Python wrapper for interacting with the Pixoo64"
 authors = ["JP Etcheber <jetcheber@gmail.com>"]
 license = "MIT License"
@@ -16,5 +16,5 @@ flake8 = "^6.0.0"
 pytest = "^7.2.0"
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
