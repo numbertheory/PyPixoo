@@ -4,7 +4,7 @@ position_number: 1.1
 type: post
 description: Get the current Channel
 content_markdown: |-
-  This will return a Python array. 
+  This will return a Python list. 
   The first item is the status code for the request.
   The second item is the response as a Python dictionary.
 left_code_blocks:
