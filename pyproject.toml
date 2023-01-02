@@ -5,6 +5,7 @@ authors = ["JP Etcheber <jetcheber@gmail.com>"]
 license = "MIT License"
 readme = "README.md"
 packages = [{include = "pypixoo"}]
+version = "0.0.4"
 
 [tool.poetry.dependencies]
 python = "^3.9"
