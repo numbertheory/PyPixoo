@@ -33,3 +33,13 @@ class Pixoo64():
             json={"Command": "Channel/SetIndex",
                   "SelectIndex": selectedChannel})
         return [req.status_code, req.json()]
+    
+    def countdown(self, minute, second, status=1):
+        req = self.api_wrapper(
+            json={"Command": "Tools/SetTimer",
+                  "Minute": minute,
+                  "Second": second,
+                  "Status": status}
+        )
+        return [req.status_code, req.json()]
+
