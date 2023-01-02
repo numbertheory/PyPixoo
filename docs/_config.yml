@@ -1,9 +1,9 @@
 # ----
 # Site
 
-title: Aviator
-description: Jekyll template for API documentation.
-url: https://example.com
+title: PyPixoo wrapper for PyPixoo64
+description: Documentation for PyPixoo
+url: https://github.com/numbertheory/PyPixoo
 google_analytics_key:
 permalink: pretty
 baseurl:
@@ -17,8 +17,8 @@ collections:
   documentation:
     title: Documentation
     position_number: 1
-  api:
-    title: APIs
+  methods:
+    title: Methods
     position_number: 2
 plugins:
   - jekyll-sitemap
@@ -41,7 +41,7 @@ defaults:
       _hide_content: true
   -
     scope:
-      type: "api"
+      type: "methods"
     values:
       _hide_content: true
 
