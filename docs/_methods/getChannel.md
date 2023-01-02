@@ -2,7 +2,7 @@
 title: getChannel
 position_number: 1.1
 type: post
-description: Create Book
+description: Get the current Channel
 parameters:
   - name: title
     content: The title for the book
