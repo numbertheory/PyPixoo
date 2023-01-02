@@ -50,7 +50,7 @@ unicode-backport = ["unicodedata2"]
 name = "colorama"
 version = "0.4.6"
 description = "Cross-platform colored terminal text."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,>=2.7"
 files = [
@@ -256,4 +256,4 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "f7922a58d5190c523686154d72a215dfa6b5e56d63eb016f897c77b6c45dc46e"
+content-hash = "8d67108d273ed9673fb55d65d50336aaa8131d37d278fd2358bdf30740d0f35f"
