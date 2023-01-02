@@ -1,6 +1,6 @@
 ---
 title: selectChannel
-position_number: 1.1
+position_number: 1.2
 type: post
 description: Select the channel
 parameters:

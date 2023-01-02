@@ -42,3 +42,10 @@ class Pixoo64():
                   "Status": status}
         )
         return [req.status_code, req.json()]
+
+    def brightness(self, brigtness):
+        req = self.api_wrapper(
+            json={"Command": "Channel/SetBrightness",
+                  "Brightness": brigtness}
+        )
+        return [req.status_code, req.json()]
